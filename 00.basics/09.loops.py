@@ -66,7 +66,7 @@ for i in range(5):
         continue  # Skip the rest of the loop when i equals 3
     print(f"i: {i}")
 
-# 8. For Loop with Else: Executes after the loop finishes
+# 8. For Loop with Else: Executes after the loop FINISHES not executes if loops BREAKS
 print("\nFor Loop with Else Example:")
 for i in range(3):
     print(f"Iteration {i + 1}: {i}")
